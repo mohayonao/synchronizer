@@ -1,0 +1,25 @@
+{
+  "name": "synchronizer",
+  "description": "utility for exclusive access control",
+  "version": "0.0.0",
+  "author": "Nao Yonamine <mohayonao@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/mohayonao/synchronizer/issues"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "index.js"
+  ],
+  "homepage": "https://github.com/mohayonao/synchronizer/",
+  "keywords": [
+    "promise",
+    "synchronized"
+  ],
+  "license": "MIT",
+  "main": "./index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mohayonao/synchronizer.git"
+  }
+}
