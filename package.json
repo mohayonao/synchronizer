@@ -1,10 +1,14 @@
 {
   "name": "synchronizer",
   "description": "utility for exclusive access control",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "author": "Nao Yonamine <mohayonao@gmail.com>",
   "bugs": {
     "url": "https://github.com/mohayonao/synchronizer/issues"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5",
+    "sinon": "^1.15.4"
   },
   "files": [
     "package.json",
@@ -21,5 +25,10 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/mohayonao/synchronizer.git"
+  },
+  "scripts": {
+    "prepublish": "npm run test",
+    "test": "mocha",
+    "travis": "npm run test"
   }
 }

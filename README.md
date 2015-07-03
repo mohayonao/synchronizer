@@ -1,4 +1,7 @@
-# SYNCHRONIZEER
+# SYNCHRONIZER
+[![Build Status](http://img.shields.io/travis/mohayonao/synchronizer.svg?style=flat-square)](https://travis-ci.org/mohayonao/synchronizer)
+[![NPM Version](http://img.shields.io/npm/v/synchronizer.svg?style=flat-square)](https://www.npmjs.org/package/synchronizer)
+[![License](http://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)](http://mohayonao.mit-license.org/)
 
 > utility for exclusive access control
 
